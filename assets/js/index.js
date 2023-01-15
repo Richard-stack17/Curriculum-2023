@@ -18,17 +18,18 @@ sr.reveal('.animado' , {
     distance: '20px'
 })
 sr.reveal('.odd' , {
-    duration: 2000,
+    duration: 4000,
     origin:'left',
     distance: '50px'
 })
 sr.reveal('.even' , {
-    duration: 3000,
+    duration: 4000,
     origin:'right',
     distance: '30px'
 })
 sr.reveal('div.studies__grid' , {
-    duration: 2000,
+    duration: 3000,
+    delay:350,
     origin:'right',
     distance: '10px'
 })
