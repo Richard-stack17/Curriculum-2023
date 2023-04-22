@@ -87,6 +87,9 @@ a {
   text-decoration: none;
   cursor:url(/assets/img/gap.png),auto;
 }
+a.btn_git:active{
+  color: black;
+}
 
 img {
   max-width: 100%;
@@ -382,6 +385,18 @@ p{
   margin: 2.5rem 0;
 }
 
+.technologies {
+  color: rgb(253, 253, 253);
+  background: rgb(123, 123, 198);
+
+  text-shadow: 0 2px 2px black;
+  padding: 5px;
+  padding-left: 10px;
+  padding-top: 4rem;
+  text-decoration: double;
+  clip-path: polygon(28% 52%, 48% 0, 68% 51%, 100% 0, 100% 100%, 0 100%, 0 57%, 0 0);
+}
+
 .about__cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
@@ -465,6 +480,7 @@ p.projects__description{
   background-color: rgba(210, 255, 255, 0.552);
   text-shadow: 1px 1px rgb(255, 255, 255);
   border-radius: 4px;
+  font-size: 1.8rem;
 }
 .projects__image {
   display: flex;
@@ -488,6 +504,16 @@ p.projects__description{
   flex-wrap: wrap;
   gap: 1rem;
 }
+
+.btn_git{
+  padding-top: 1rem;
+  display: grid;
+  justify-content: center;
+  font-size: 1.8rem;
+  width: 3rem;
+  margin: 0 auto;
+}
+
 
 .projects__button {
   color:rgba(42, 5, 79, 0.622);
