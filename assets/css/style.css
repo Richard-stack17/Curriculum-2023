@@ -400,11 +400,11 @@ p{
 .about__cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
-  gap: 2rem;
+  gap:2rem;
 }
 
 .about__card {
-  background-image: radial-gradient( circle 300px at 8% 89.3%,  rgba(20,157,208,1) 0%, rgba(139, 63, 226, 0.725) 90% );
+  background-image: radial-gradient( circle 300px at 8% 89.3%,  rgb(104, 156, 225) 0%, rgba(97, 30, 173, 0.725) 90% );
   box-shadow: var(--box-shadow);
   border: 5px double rgb(66, 4, 117);
   border-color: #35094793;
@@ -413,11 +413,12 @@ p{
   border-left: none;
   margin-right: auto;
   margin-left: auto;
-  padding: 20px 80px 20px 100px;
+  padding: 40px;
+  padding-left: 45px;
   border-radius: 5px;
   box-shadow: var(--box-shadow);
-  
-  max-width: 325px;
+  max-width: 140px;
+  height: 150px;
   clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 
